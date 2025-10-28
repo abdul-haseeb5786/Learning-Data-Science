@@ -48,3 +48,17 @@ print("Mixed int+float:", arr, "dtype:", arr.dtype)
 arr = np.array([1, 0, True, False])
 print("Mixed int+bool:", arr, "dtype:", arr.dtype)
 
+
+# --------------------------
+# 4. Creating Arrays
+# --------------------------
+arr1 = np.array([1, 2, 3, 4, 5])
+arr2 = np.array([[1, 2, 3], [4, 5, 6]])
+arr3 = np.zeros((2, 3))
+arr4 = np.ones((3, 4))
+arr5 = np.identity(5)
+arr6 = np.arange(10)
+arr7 = np.arange(10, 25, 2)
+arr8 = np.linspace(0, 20, 10)
+arr9 = arr8.copy()
+
