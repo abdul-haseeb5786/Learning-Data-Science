@@ -98,3 +98,26 @@ arr13 = np.arange(24).reshape(6, 4)
 print(arr13[2])
 print(arr13[:, 2])
 print(arr13[4:6, 2:4])
+
+# --------------------------
+# 8. Iteration
+# --------------------------
+for i in np.nditer(arr13):
+    print(i, end=" ")
+
+# --------------------------
+# 9. Operations
+# --------------------------
+arr1 = np.array([1, 2, 3, 4, 5, 6])
+arr2 = np.array([4, 5, 6, 7, 8, 9])
+print(arr1 + arr2, arr1 * arr2, arr1 / arr2)
+print(arr1 > 3, arr1 == arr2)
+
+# --------------------------
+# 10. Reshaping
+# --------------------------
+arr10 = np.arange(8).reshape(2, 2, 2)
+print(arr10.ravel())
+
+arr5 = np.arange(24)
+print(arr5.reshape(2, 12).transpose())
