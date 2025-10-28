@@ -77,3 +77,13 @@ np_array = np.arange(1000)
 print("Python list size:", sys.getsizeof(py_list), "bytes")
 print("NumPy array size:", np_array.nbytes, "bytes")
 
+# Speed Test
+py_list = list(range(1_000_000))
+start = time.time()
+py_result = [x * 2 for x in py_list]
+print("Python list time:", time.time() - start)
+
+np_array = np.arange(1_000_000)
+start = time.time()
+np_result = np_array * 2
+print("NumPy array time:", time.time() - start)
