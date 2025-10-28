@@ -68,3 +68,12 @@ arr9 = arr8.copy()
 arr10 = np.array([[[1, 2], [3, 4]], [[5, 6], [7, 8]]])
 print(arr10.shape, arr10.ndim, arr10.size, arr10.itemsize, arr10.dtype)
 print(arr10.astype('float'))
+
+# --------------------------
+# 6. List vs NumPy
+# --------------------------
+py_list = list(range(1000))
+np_array = np.arange(1000)
+print("Python list size:", sys.getsizeof(py_list), "bytes")
+print("NumPy array size:", np_array.nbytes, "bytes")
+
