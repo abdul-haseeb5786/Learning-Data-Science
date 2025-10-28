@@ -62,3 +62,9 @@ arr7 = np.arange(10, 25, 2)
 arr8 = np.linspace(0, 20, 10)
 arr9 = arr8.copy()
 
+# --------------------------
+# 5. Array Properties
+# --------------------------
+arr10 = np.array([[[1, 2], [3, 4]], [[5, 6], [7, 8]]])
+print(arr10.shape, arr10.ndim, arr10.size, arr10.itemsize, arr10.dtype)
+print(arr10.astype('float'))
