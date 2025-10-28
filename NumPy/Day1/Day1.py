@@ -87,3 +87,14 @@ np_array = np.arange(1_000_000)
 start = time.time()
 np_result = np_array * 2
 print("NumPy array time:", time.time() - start)
+
+# --------------------------
+# 7. Indexing & Slicing
+# --------------------------
+arr12 = np.arange(24)
+print(arr12[7], arr12[-1], arr12[7:14], arr12[-6:-1])
+
+arr13 = np.arange(24).reshape(6, 4)
+print(arr13[2])
+print(arr13[:, 2])
+print(arr13[4:6, 2:4])
