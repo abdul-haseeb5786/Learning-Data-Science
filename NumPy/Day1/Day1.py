@@ -121,3 +121,37 @@ print(arr10.ravel())
 
 arr5 = np.arange(24)
 print(arr5.reshape(2, 12).transpose())
+
+# --------------------------
+# 11. Stack and Split
+# --------------------------
+arr3 = np.arange(6).reshape(2, 3)
+arr6 = np.arange(12, 18).reshape(2, 3)
+arr7 = np.arange(19, 25).reshape(2, 3)
+
+print(np.hstack((arr3, arr6, arr7)))
+print(np.vstack((arr3, arr6, arr7)))
+
+print(np.hsplit(arr3, 3))
+print(np.vsplit(arr3, 2))
+
+# --------------------------
+# 12. Boolean Indexing
+# --------------------------
+arr = np.random.randint(1, 100, 24).reshape(6, 4)
+print(arr[arr > 50])
+arr[(arr > 50) & (arr % 2 != 0)] = 0
+print(arr)
+
+# --------------------------
+# 13. Broadcasting
+# --------------------------
+arr1 = np.arange(9).reshape(3, 3)
+arr2 = np.arange(3).reshape(1, 3)
+print(arr1 + arr2)
+
+# --------------------------
+# 14. Missing Values
+# --------------------------
+a = np.array([1, 2, 3, 4, np.nan, 5, 6, np.nan])
+print(a)
