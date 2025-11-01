@@ -35,7 +35,14 @@ print("Index:", marks.index)
 print("Values:", marks.values)
 print("Is Unique:", marks.is_unique)
 
-
+# -------------------------------------------------------------
+# 🧩 3. Accessing Elements
+# -------------------------------------------------------------
+print("\nAccessing Elements:")
+print("Single Element (by label):", marks['math'])
+print("Multiple Elements (by labels):\n", marks[['math', 'urdu', 'science']])
+print("Slicing:\n", marks[1:4])
+print("Fancy Indexing:\n", marks[[0, 2, 4]])
 
 
 
