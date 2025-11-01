@@ -115,9 +115,3 @@ print("Duplicated Check:\n", marks.duplicated())
 print("Drop Duplicates:\n", marks.drop_duplicates())
 print("Data Type Conversion (to float):\n", marks.astype(float))
 print("Check Membership:\n", marks.isin([90, 100]))
-
-
-
-
-
-
