@@ -15,3 +15,8 @@ print("📄 Series from List:\n", marks)
 # From a list with custom index
 marks = pd.Series([85, 90, 78, 92, 88], index=['math', 'english', 'urdu', 'science', 'history'])
 print("\n📄 Series with Custom Index:\n", marks)
+
+# From a dictionary
+data = {'math': 85, 'english': 90, 'urdu': 78, 'science': 92, 'history': 88}
+marks_dict = pd.Series(data)
+print("\n📄 Series from Dictionary:\n", marks_dict)
