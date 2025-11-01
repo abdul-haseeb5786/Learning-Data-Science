@@ -38,3 +38,6 @@ You’ll learn how to create, manipulate, and perform basic operations on NumPy 
    ```bash
    pip install numpy
 
+1. Run The Code:
+   ```bash
+   python Day1.py
