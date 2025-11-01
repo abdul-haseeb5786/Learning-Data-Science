@@ -101,7 +101,9 @@ print("Minimum:", min(marks))
 print("Maximum:", max(marks))
 print("Sorted:\n", sorted(marks.dropna()))
 
-
+# Convert to list and dictionary
+print("\nAs List:", marks.tolist())
+print("As Dictionary:", marks.to_dict())
 
 
 
