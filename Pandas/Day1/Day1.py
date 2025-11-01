@@ -105,7 +105,16 @@ print("Sorted:\n", sorted(marks.dropna()))
 print("\nAs List:", marks.tolist())
 print("As Dictionary:", marks.to_dict())
 
-
+# -------------------------------------------------------------
+# 🧩 10. Important Series Methods
+# -------------------------------------------------------------
+print("\nImportant Series Methods:")
+print("Unique Values:", marks.unique())
+print("Value Counts:\n", marks.value_counts())
+print("Duplicated Check:\n", marks.duplicated())
+print("Drop Duplicates:\n", marks.drop_duplicates())
+print("Data Type Conversion (to float):\n", marks.astype(float))
+print("Check Membership:\n", marks.isin([90, 100]))
 
 
 
