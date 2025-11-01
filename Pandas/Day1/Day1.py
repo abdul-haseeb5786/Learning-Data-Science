@@ -67,7 +67,12 @@ print("Sorted by Index:\n", marks.sort_index())
 print("Sorted by Values:\n", marks.sort_values())
 print("Random Sample (2 elements):\n", marks.sample(2))
 
-
+# -------------------------------------------------------------
+# 🧮 6. Boolean & Relational Operations
+# -------------------------------------------------------------
+print("\nBoolean Operations:")
+print(marks > 80)
+print("Marks greater than 80:\n", marks[marks > 80])
 
 
 
