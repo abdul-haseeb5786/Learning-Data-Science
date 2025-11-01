@@ -82,7 +82,14 @@ marks['urdu'] = 82
 marks['islamiyat'] = 95
 print("Updated Series:\n", marks)
 
-
+# -------------------------------------------------------------
+# 🧰 8. Handling Missing Data
+# -------------------------------------------------------------
+marks['physics'] = None
+print("\nWith Missing Value:\n", marks)
+print("Is Null:\n", marks.isnull())
+print("Fill Missing Values (with 0):\n", marks.fillna(0))
+print("Drop Missing Values:\n", marks.dropna())
 
 
 
