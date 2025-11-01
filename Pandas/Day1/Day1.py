@@ -59,7 +59,13 @@ print("Standard Deviation:", marks.std())
 print("Variance:", marks.var())
 print("\nDescriptive Statistics:\n", marks.describe())
 
-
+# -------------------------------------------------------------
+# 🔍 5. Sorting and Sampling
+# -------------------------------------------------------------
+print("\nSorting and Sampling:")
+print("Sorted by Index:\n", marks.sort_index())
+print("Sorted by Values:\n", marks.sort_values())
+print("Random Sample (2 elements):\n", marks.sample(2))
 
 
 
