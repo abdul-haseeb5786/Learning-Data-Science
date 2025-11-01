@@ -24,3 +24,19 @@ print("\n📄 Series from Dictionary:\n", marks_dict)
 # Assigning a name to Series
 marks.name = "Student Marks"
 print("\n🏷️ Series Name:", marks.name)
+
+# -------------------------------------------------------------
+# 📊 2. Series Attributes
+# -------------------------------------------------------------
+print("\nSeries Attributes:")
+print("Size:", marks.size)
+print("Data Type:", marks.dtype)
+print("Index:", marks.index)
+print("Values:", marks.values)
+print("Is Unique:", marks.is_unique)
+
+
+
+
+
+
