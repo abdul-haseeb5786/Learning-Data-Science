@@ -17,5 +17,5 @@ It’s similar to a column in an Excel sheet or a NumPy array with labels.
 
 ## 🚀 Run the Code
 ```bash
-python day1_pandas_series.py
+python Day1.py
 
