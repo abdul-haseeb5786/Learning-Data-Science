@@ -74,7 +74,13 @@ print("\nBoolean Operations:")
 print(marks > 80)
 print("Marks greater than 80:\n", marks[marks > 80])
 
-
+# -------------------------------------------------------------
+# 🧠 7. Updating Series
+# -------------------------------------------------------------
+print("\nUpdating Values:")
+marks['urdu'] = 82
+marks['islamiyat'] = 95
+print("Updated Series:\n", marks)
 
 
 
