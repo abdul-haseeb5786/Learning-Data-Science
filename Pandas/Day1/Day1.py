@@ -44,6 +44,37 @@ print("Multiple Elements (by labels):\n", marks[['math', 'urdu', 'science']])
 print("Slicing:\n", marks[1:4])
 print("Fancy Indexing:\n", marks[[0, 2, 4]])
 
+# -------------------------------------------------------------
+# ⚙️ 4. Mathematical & Statistical Operations
+# -------------------------------------------------------------
+print("\nMathematical Operations:")
+print("Count:", marks.count())
+print("Sum:", marks.sum())
+print("Mean:", marks.mean())
+print("Median:", marks.median())
+print("Mode:\n", marks.mode())
+print("Min:", marks.min())
+print("Max:", marks.max())
+print("Standard Deviation:", marks.std())
+print("Variance:", marks.var())
+print("\nDescriptive Statistics:\n", marks.describe())
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
