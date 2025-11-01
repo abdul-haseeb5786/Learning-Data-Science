@@ -91,7 +91,15 @@ print("Is Null:\n", marks.isnull())
 print("Fill Missing Values (with 0):\n", marks.fillna(0))
 print("Drop Missing Values:\n", marks.dropna())
 
-
+# -------------------------------------------------------------
+# 🧾 9. Using Python Functions with Series
+# -------------------------------------------------------------
+print("\nUsing Python Functions:")
+print("Length:", len(marks))
+print("Type:", type(marks))
+print("Minimum:", min(marks))
+print("Maximum:", max(marks))
+print("Sorted:\n", sorted(marks.dropna()))
 
 
 
