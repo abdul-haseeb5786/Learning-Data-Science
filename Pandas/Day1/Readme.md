@@ -15,7 +15,12 @@ It’s similar to a column in an Excel sheet or a NumPy array with labels.
 
 ---
 
+1. Install Pandas:
+   ```bash
+   pip install pandas
+   
 ## 🚀 Run the Code
 ```bash
 python Day1.py
+
 
