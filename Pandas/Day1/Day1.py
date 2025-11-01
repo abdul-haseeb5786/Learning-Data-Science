@@ -20,3 +20,7 @@ print("\n📄 Series with Custom Index:\n", marks)
 data = {'math': 85, 'english': 90, 'urdu': 78, 'science': 92, 'history': 88}
 marks_dict = pd.Series(data)
 print("\n📄 Series from Dictionary:\n", marks_dict)
+
+# Assigning a name to Series
+marks.name = "Student Marks"
+print("\n🏷️ Series Name:", marks.name)
