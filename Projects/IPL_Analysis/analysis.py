@@ -1,5 +1,4 @@
 # 🏏 IPL Data Analysis
-# Author: Abdul Haseeb
 
 # Importing libraries
 import pandas as pd
