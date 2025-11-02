@@ -34,3 +34,12 @@ plt.title('Top 5 Teams by Wins')
 plt.xlabel('Number of Wins')
 plt.ylabel('Team')
 plt.show()
+
+# 2️⃣ Toss decision impact
+toss_decision = df['toss_decision'].value_counts()
+plt.figure(figsize=(6,4))
+sns.barplot(x=toss_decision.index, y=toss_decision.values, palette='viridis')
+plt.title('Toss Decision Analysis')
+plt.xlabel('Decision')
+plt.ylabel('Count')
+plt.show()
