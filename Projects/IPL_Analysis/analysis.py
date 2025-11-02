@@ -49,3 +49,17 @@ toss_winner_wins = df[df['toss_winner'] == df['winner']].shape[0]
 total_matches = df.shape[0]
 percentage = (toss_winner_wins / total_matches) * 100
 print(f"\n🎯 Matches won by toss winners: {percentage:.2f}%")
+
+# 4️⃣ Most Player of the Match awards
+top_players = df['player_of_match'].value_counts().head(5)
+print("\n⭐ Top 5 Players of the Match Awards:")
+print(top_players)
+
+plt.figure(figsize=(8,5))
+sns.barplot(x=top_players.values, y=top_players.index, palette='mako')
+plt.title('Top 5 Players with Most MOM Awards')
+plt.xlabel('Awards')
+plt.ylabel('Player')
+plt.show()
+
+print("\n✅ IPL Analysis Completed Successfully!")
