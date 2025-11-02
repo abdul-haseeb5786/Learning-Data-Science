@@ -20,3 +20,10 @@ print(df.info())
 # Check for missing values
 print("\n🔍 Missing Values:")
 print(df.isnull().sum())
+
+# --- Data Analysis ---
+
+# 1️⃣ Most successful teams
+top_teams = df['winner'].value_counts().head(5)
+print("\n🏆 Top 5 Teams by Wins:")
+print(top_teams)
