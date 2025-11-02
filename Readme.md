@@ -17,10 +17,10 @@ by learning step-by-step with Python libraries like **NumPy**, **Pandas**, **Mat
 | Step | Topic | Folder | Description |
 |------|--------|---------|-------------|
 | 1 | 🧮 **NumPy** | [NumPy](./NumPy) | Learn numerical computing with arrays, vectorization, and broadcasting |
-| 2 | 🧾 **Pandas** | (coming soon) | Data manipulation with Series and DataFrames |
+| 2 | 🧾 **Pandas** | [Pandas](./Pandas) | Data manipulation and analysis with Series and DataFrames |
 | 3 | 📈 **Matplotlib & Seaborn** | (coming soon) | Data visualization and analytics |
 | 4 | 🤖 **Scikit-learn** | (coming soon) | Machine Learning models and evaluation |
-| 5 | 🧠 **Projects** | (coming soon) | Real-world data science applications |
+| 5 | 🧠 **Projects** | [Projects](./Projects) | Real-world data science applications and case studies |
 
 ---
 
