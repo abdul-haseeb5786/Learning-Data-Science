@@ -43,3 +43,9 @@ plt.title('Toss Decision Analysis')
 plt.xlabel('Decision')
 plt.ylabel('Count')
 plt.show()
+
+# 3️⃣ Matches won by toss winners
+toss_winner_wins = df[df['toss_winner'] == df['winner']].shape[0]
+total_matches = df.shape[0]
+percentage = (toss_winner_wins / total_matches) * 100
+print(f"\n🎯 Matches won by toss winners: {percentage:.2f}%")
