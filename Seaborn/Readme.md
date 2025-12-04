@@ -1,4 +1,4 @@
-🎨 Seaborn Data Visualization – Complete Learning Guide  
+# 🎨 Seaborn Data Visualization – Complete Learning Guide  
 This repository contains clean and simple Seaborn visualization examples using built-in datasets.  
 It is designed for beginners learning statistical data visualization in Python.
 
